@@ -1,12 +1,12 @@
 import React from "react";
 import Typical  from 'react-typical'
-
+import './Profile.css'
 export default function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          
+
           <div className="colz">
             <div className="colz-icon">
             <a href="https://www.linkedin.com/in/shorenaanzhilov/">
@@ -53,7 +53,7 @@ export default function Profile() {
        </span>
          </div>
          <div className="profile-optons">
-          <button className="btn primany-btn"> 
+          <button className="btn primary-btn"> 
           {""}
           Hire Me{" "}
           </button>
