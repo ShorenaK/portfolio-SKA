@@ -13,6 +13,13 @@ export default function Profile() {
               <i className="fa fa-github-square"> </i>
             </a>
           </div>
+          <div className="profile-details-name">
+            <span className="prime-text">
+              {" "}
+              Hello, I'M <span className="highlighted-text">Shorena</span>
+            </span>
+          </div>
+           {" "}
         </div>
       </div>
     </div>
