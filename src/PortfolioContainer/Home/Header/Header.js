@@ -6,7 +6,7 @@ import {TOTAL_SCREENS, GET_SCREEN_INDEX} from
 import ScrollService from '../../../utilities/ScrollService'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import '.Header.css'
+import './Header.css'
 
 export default function Header() {
  const [selectedScreen, setSelectedScreen] = useState(0)
@@ -31,7 +31,7 @@ let currentScreenSubscription = ScrollService.currentScreenBroadCaster.subscribe
         ))
     )
   }
-  const getHeaderOptionsClass = () =>{
+  const getHeaderOptionsClass = (index) =>{
     let classes = "header-option";
     if(index < TOTAL_SCREENS.length -1 )
     classes += "header-option-seperator"
